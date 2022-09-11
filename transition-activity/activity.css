@@ -1,1 +1,15 @@
-
+.fade {
+    background-color: #fff;
+    color: black;
+    transition: background-color 1s;
+  }
+  
+  .fade:hover {
+    background-color: #6bbcea;
+  }
+  
+  .fade:focus,
+  .fade:active {
+    background-color: black;
+    transition: none;
+  }
